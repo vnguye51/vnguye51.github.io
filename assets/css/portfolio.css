@@ -1,0 +1,148 @@
+* {box-sizing: border-box;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif}
+body{  
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/texture.jpg');
+    color: rgb(46, 46, 46);
+    overflow: scroll;
+    min-width: 820px;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border-bottom: 2px gray solid;
+    background-color: #00352D;
+    text-align: center;
+    overflow: auto;  
+    padding: 10px 10px}
+
+
+
+.namebox{
+    float: left;
+    margin: 0px 0px 0px 90px;
+    font-weight: bold;
+    font-size: 36px;
+   }
+
+.header-right{
+    float: right;
+    margin: 15px 90px 0px 0px;
+    font-size: 24px;
+}
+
+header a{
+    float: left;
+    padding: 10px;
+    color: #AD9C70;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white}
+
+#main{padding:0px 40px 20px 40px;
+    width: 1600px;
+    margin: 109px 100px;
+    background-color:white;
+    border: gray solid 1px;}
+
+
+
+footer{font-size: 12px;
+    margin: 0px 100px 0px 100px;}
+
+#title{border-bottom: darkgray solid 2px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    height: 50px;}
+
+
+/* Keep width at a constant size for this page*/
+
+#PortContainer{position: relative;
+    /* background-color: purple; */
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    left:100px}
+
+
+
+.box{
+    position: absolute;
+    left: 0px;
+    top: 0px;}
+
+#box1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#box2{
+    position: absolute;
+    left: 360px;
+    top: 0px;
+}
+
+#box3{
+    position: absolute;
+    left: 720px;
+    top: 0px;
+}
+
+#box4{
+    position: absolute;
+    left: 1080px;
+    top: 0px;
+}
+
+#box5{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+
+#box6{
+    position: absolute;
+    left: 360px;
+    top: 300px;
+}
+
+#box7{
+    position: absolute;
+    left: 720px;
+    top: 300px;
+}
+
+#box8{
+    position: absolute;
+    left: 1080px;
+    top: 300px;
+}
+
+.label{position: absolute;
+    width: 240px;
+    left: 0px;
+    bottom: 16px;
+    text-align: center;
+    padding: 2px 0px;
+    margin: 0px;
+    background-color: #00352D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #AD9C70;
+    font-size: 20px;
+    font-weight: bold;}
+
+
+#footer{background-color: #00352D;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    bottom: 0px}

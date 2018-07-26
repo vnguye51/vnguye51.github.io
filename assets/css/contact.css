@@ -46,9 +46,6 @@ header a:hover{
     background-color:white;
     border: gray solid 1px;}
 
-img{float:left;
-    padding: 0px 20px 0px 0px}
-
 footer{font-size: 12px;
     margin: 0px 100px 0px 100px;}
 
@@ -58,6 +55,20 @@ footer{font-size: 12px;
     height: 50px;}
 
 
+/* Contact Specific */
+textarea{height: 150px;
+    width: 100%}
+input{width:100%}
+#inputboxes{margin: 0px 0px 20px 0px;
+    }
+button{padding: 5px 40px;
+    color: #AD9C70;
+    background-color: #00352D;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    }
 
 #footer{background-color: #00352D;
     position: fixed;
