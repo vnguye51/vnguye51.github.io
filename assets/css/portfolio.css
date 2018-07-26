@@ -19,7 +19,8 @@ header{
     background-color: #00352D;
     text-align: center;
     overflow: auto;  
-    padding: 10px 10px}
+    padding: 10px 10px;
+    z-index: 1}
 
 
 
@@ -47,15 +48,16 @@ header a:hover{
     color: white}
 
 #main{padding:0px 40px 20px 40px;
-    width: 1600px;
+    width: 920px;
     margin: 109px 100px 10px 100px;
     background-color:white;
     border: gray solid 1px;}
 
 
 
-footer{font-size: 12px;
-    margin: 0px 100px 0px 100px;}
+footer{font-size: 14px;
+    width: 920px;
+    margin: 0px 100px 30px 100px;}
 
 #title{border-bottom: darkgray solid 2px;
     margin-left: 0px;
@@ -63,68 +65,56 @@ footer{font-size: 12px;
     height: 50px;}
 
 
-/* Keep width at a constant size for this page*/
-
 #PortContainer{position: relative;
     /* background-color: purple; */
-    height: 500px;
+    height: 760px;
     margin-top: 60px;
     margin-bottom: 60px;
-    left:100px}
+    left:0px}
 
 
 
 .box{
     position: absolute;
-    left: 0px;
-    top: 0px;}
-
+}
 #box1{
-    position: absolute;
     left: 0px;
     top: 0px;
 }
 
 #box2{
-    position: absolute;
-    left: 360px;
+    left: 300px;
     top: 0px;
 }
 
 #box3{
-    position: absolute;
-    left: 720px;
+    left: 600px;
     top: 0px;
 }
 
 #box4{
-    position: absolute;
-    left: 1080px;
-    top: 0px;
-}
-
-#box5{
-    position: absolute;
     left: 0px;
     top: 300px;
 }
 
+#box5{
+    left: 300px;
+    top: 300px;
+}
+
 #box6{
-    position: absolute;
-    left: 360px;
+    left: 600px;
     top: 300px;
 }
 
 #box7{
-    position: absolute;
-    left: 720px;
-    top: 300px;
+    left: 0px;
+    top: 600px;
 }
 
 #box8{
-    position: absolute;
-    left: 1080px;
-    top: 300px;
+    left: 300px;
+    top: 600px;
 }
 
 .label{position: absolute;
